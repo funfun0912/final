@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: #080710;
+    color: #ffffff;
+}
+
+canvas{
+    border: 2px solid black;
+    background-image: url(images/grasses74.png);
+}
+
+#talkBox{
+    height: 20px;
+    color: yellowgreen;
+    font-size: 26px;
+    font-weight: bold;
+}
+#result {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+    color: #080710;
+    width: 280px;
+    height: 120px;
+    background-color: yellowgreen;
+    margin-left: 10px; /* 调整方格与原内容之间的间距 */
+  }
